@@ -7,7 +7,7 @@ const port = 3000;
 // Create MySQL connection pool
 const pool = mysql.createPool({
   connectionLimit: 10, // Adjust as needed
-  host: 'localhost',
+  host: '127.0.0.1',
   user: 'root',
   password: 'Abhi@15012002',
   database: 'rrrlfdb',
